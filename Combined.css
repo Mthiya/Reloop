@@ -1,0 +1,87 @@
+/* General Body and Layout */
+body {
+  font-family: 'Poppins', sans-serif; /* You can change this to another font */
+  background-color: #f4f7f8; /* Light grayish-blue background, change as needed */
+  color: #333; /* Dark gray text color, adjust to your preference */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for Centered Content */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff; /* White background for the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Headline Styling */
+h1 {
+  text-align: center;
+  color: #00796b; /* Teal color for the heading */
+}
+
+/* Link Hover Effects */
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #9333ea; /* Purple color for link hover */
+}
+
+/* Button Styling */
+button, .btn {
+  border-radius: 1rem; /* Rounded corners */
+  font-weight: 600; /* Bold text */
+  transition: background-color 0.3s ease;
+  padding: 10px 20px; /* Padding for buttons */
+}
+
+button {
+  background-color: #00796b; /* Teal button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f56; /* Darker teal on hover */
+}
+
+/* Neon Accent for Buttons */
+.btn-glow {
+  box-shadow: 0 0 15px #9333ea; /* Neon glow effect */
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Responsive Layout Adjustments */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  main {
+    padding: 3rem 1rem;
+  }
+}
