@@ -1,0 +1,43 @@
+/* styles.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom Gen Z Styles */
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #9333ea; /* purple-600 from Tailwind */
+}
+
+button, .btn {
+  border-radius: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add neon accent for Gen Z touch */
+.btn-glow {
+  box-shadow: 0 0 15px #9333ea;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  main {
+    padding: 3rem 1rem;
+  }
+}
